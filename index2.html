@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Work Day Scheduler</title>
 </head>
 
 <div class="jumbotron">
     <h1 class="display-4">Work Day Scheduler</h1>
     <p class="lead">A calendar app for scheduling your work day</p>
+    <hr class="my-4">
+    <p>Today's date is</p>
+<span>
+    <script>
+        var rightNow = moment();
+        moment().format('llll');
+    </script>
+</span>
 </div>
 
 <body>
     
     <div class="container">
+
         <div class="row">
-            <div class="col-sm-3">
-                Lorem ipsum to the car in the topic of the island if we ever have to take it back to the end of the store then we will need to buy a new one. Test this code to see if it works and whether it extends to the whole row or just a small portion of the column.
+            <div class="col-sm-3 time">
+                Test 1.
             </div>
-            <div class="col-sm-3">
-                Lorem ipsum to the car in the topic of the island if we ever have to take it back to the end of the store then we will need to buy a new one. Test this code to see if it works and whether it extends to the whole row or just a small portion of the column.
+            <div class="col-sm-3 description">
+                Test 2.
             </div>
-            <div class="col-sm-3">
-                Lorem ipsum to the car in the topic of the island if we ever have to take it back to the end of the store then we will need to buy a new one. Test this code to see if it works and whether it extends to the whole row or just a small portion of the column.
+            <div class="col-sm-3 save fas fa-save">
+                Save Changes
             </div>
         </div>
     </div>
@@ -35,7 +47,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
 
 </body>
 </html>
