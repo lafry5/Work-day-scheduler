@@ -11,6 +11,10 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+
+  .my-4 {
+    border: white;
+  }
   
   textarea{
     background: transparent;

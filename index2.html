@@ -13,18 +13,17 @@
     <title>Work Day Scheduler</title>
 </head>
 
-<div class="jumbotron">
-    <h1 class="display-4">Work Day Scheduler</h1>
-    <p class="lead">A calendar app for scheduling your work day</p>
-    <hr class="my-4">
-    <p>Today's date is</p>
-<span>
-    <script>
-        var rightNow = moment();
-        moment().format('llll');
-    </script>
-</span>
-</div>
+<header>
+    <div class="jumbotron">
+        <h1 class="display-4">Work Day Scheduler</h1>
+        <p class="lead">A calendar app for scheduling 
+            your work day</p>
+        <hr class="my-4">
+        <p>
+            <script> document.write(new Date().toLocaleDateString()); </script>
+        </p> 
+    </div>
+</header>
 
 <body>
     
@@ -32,13 +31,13 @@
 
         <div class="row">
             <div class="col-sm-3 time">
-                Test 1.
+                Test 1
             </div>
             <div class="col-sm-3 description">
-                Test 2.
+                Test 2
             </div>
             <div class="col-sm-3 save fas fa-save">
-                Save Changes
+                Push disk to save changes
             </div>
         </div>
     </div>
