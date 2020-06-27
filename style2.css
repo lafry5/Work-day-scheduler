@@ -1,10 +1,10 @@
-body { /* updated */
+body { 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
 
-  .jumbotron {  /* updated */
+  .jumbotron {
     text-align: center;
     background-color: transparent;
     color: black;
@@ -12,11 +12,11 @@ body { /* updated */
     border-bottom: 10px solid black;
   }
 
-  .my-4 {  /* updated */
+  .my-4 { 
     border: white;
   }
   
-  textarea{ /* updated */
+  textarea{ 
     background: lightgray;
     resize: none;
     color: #000000;
@@ -26,33 +26,32 @@ body { /* updated */
     border-right: 1px solid black;
   }
   
-  .description{ /* updated */
+  .description{ 
     white-space: pre-wrap;
-    
+
     margin: 0;
     padding: 0;
   }
   
-  .time-block { /* updated */
+  .time-block { 
     text-align: center;
     border-radius: 15px;
    }
   
-  .row { /* updated */
+  .row { 
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
   }
   
-  .hour { /* updated */
+  .hour { 
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
-    border-left: 1px solid black;
     border-right: 1px solid black;
   }
   
-  .fa-save { /* updated */
+  .fa-save { 
     border-left: 1px solid black;
     border-top: 1px solid black;
     border-top-right-radius: 15px;
