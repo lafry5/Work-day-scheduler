@@ -16,7 +16,7 @@ body {
     border: white;
   }
   
-  textarea{ 
+  textarea { 
     background: lightgray;
     resize: none;
     color: #000000;
@@ -28,9 +28,9 @@ body {
   
   .description{ 
     white-space: pre-wrap;
-
     margin: 0;
     padding: 0;
+    position: 10px;
   }
   
   .time-block { 
