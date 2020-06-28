@@ -24,21 +24,21 @@ $(document).ready(function () {
   }
   var currentDay = $("#currentDay").text(moment().format("dddd, MMMM Do, YYYY"));
   
-  hourformatter();
-
   function hourformatter() {
-
-    $(".time-block").each(function(){ //hour-9 => [hour, 9]
+    var currentHour = moment().hours();
+    // textarea as a direct child of .time-block
+     $(".time-block > textarea").each(function(){ //hour-9 => [hour, 9]
       var blockHour = parseInt($(this).attr("id").split("-")[1]);// "9" => 9
-      console.log("block hour", blockHour);
       if(blockHour < currentHour) {
           $(this).addClass("past");
-      } else if(blockHour === currentHour) {
+      } else if (blockHour === currentHour) {
           $(this).addClass("present");
       } else {
-          $(this).addClass("future");
+         $(this).addClass("future");
       } // end of if
     }); // end of time block
   } // end of hour formatter       
+
+  hourformatter();
 
 }); //was there
