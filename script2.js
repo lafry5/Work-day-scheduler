@@ -39,6 +39,7 @@ $(document).ready(function () {
     }); // end of time block
   } // end of hour formatter       
 
+
   hourformatter();
 
 }); //was there
